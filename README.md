@@ -16,6 +16,10 @@ Installation and configuration of scientific software, including:
 ### 2. Monte Carlo Simulations
 General workflows for event generation, parton showering, and detector simulation.
 
+### [3. HTCondor Batch Production](HTCondor_Batch_Production/)
+
+HTCondor-based batch processing workflows for automated Monte Carlo event generation, parallel job submission, resource management, and large-scale simulation production.
+
 ### 3. ROOT Data Analysis
 ROOT/C++ analysis workflows for event processing, histogramming, and visualization of physics distributions.
 
