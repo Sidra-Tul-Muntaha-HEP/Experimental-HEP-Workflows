@@ -14,7 +14,7 @@ The workflow integrates MadGraph5_aMC@NLO with HTCondor batch scheduling to supp
 
 **HTCondor Batch Production Workflow**
 
-![HTCondor Batch Production Workflow](HTCondor_Workflow.png)
+!(HTCondor_Workflow.png)
 
 Independent simulation jobs are submitted to computing nodes through HTCondor. Each job executes a Bash script for MadGraph5_aMC@NLO event generation and Pythia8 showering.
 
