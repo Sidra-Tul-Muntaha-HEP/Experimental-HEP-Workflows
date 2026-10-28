@@ -1,4 +1,4 @@
-# Monte Carlo Sample Generation — Configuration and Best Practices
+# Monte Carlo Event Generation — Workflow and Configuration
 
 ## Overview
 
