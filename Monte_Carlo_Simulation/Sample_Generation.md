@@ -68,9 +68,10 @@ A consistent flavour scheme requires compatible model parameters, proton definit
 A simple introductory Drell–Yan process is describes lepton-pair production
 in proton–proton collisions through electroweak interactions.
 
-$$
+```math
 pp \rightarrow \mu^{+}\mu^{-}
-$$
+```
+
 Start MadGraph:
 
 ```bash
