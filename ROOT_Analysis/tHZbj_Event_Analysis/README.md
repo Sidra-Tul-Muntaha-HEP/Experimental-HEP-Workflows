@@ -1,4 +1,4 @@
-# tHZbj Event Reconstruction and Analysis Workflow
+# tHZ Event Reconstruction and Analysis Workflow
 
 ## Overview
 
