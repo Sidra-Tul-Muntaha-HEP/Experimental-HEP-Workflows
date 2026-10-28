@@ -436,8 +436,8 @@ The statistical model, datacards, ROOT templates, and selected inference method 
 
 ## 13. References
 
-- CMS Combine — Official Documentation
-- HiggsAnalysis/CombinedLimit — GitHub Repository
-- CombineHarvester — Official Repository
-- CMS Software — Singularity/Apptainer Environment Guide
-- CERN Virtual Machine File System (CVMFS)
+1. [CMS Combine — Official Documentation (v10.5.1)](https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/v10.5.1/)
+2. [HiggsAnalysis/CombinedLimit — Official GitHub Repository](https://github.com/cms-analysis/HiggsAnalysis-CombinedLimit)
+3. [CombineHarvester — Official GitHub Repository](https://github.com/cms-analysis/CombineHarvester)
+4. [CMS Software — Singularity/Apptainer Environment Guide](https://cms-sw.github.io/singularity.html)
+5. [CernVM File System (CVMFS) — Official Documentation](https://cvmfs.readthedocs.io/en/stable/)
