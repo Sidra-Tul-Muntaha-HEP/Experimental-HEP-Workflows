@@ -10,33 +10,16 @@ This section documents a Bash-based MadGraph5_aMC@NLO workflow for batch product
 
 ## 1. Simulation Workflow
 
-The workflow integrates MadGraph5_aMC@NLO with external simulation tools and HTCondor batch scheduling.
+The workflow integrates MadGraph5_aMC@NLO with HTCondor batch scheduling to support large-scale Monte Carlo event generation.
 
-**Simulation pipeline:**
+**HTCondor Batch Production Workflow**
 
-```text
-MadGraph5_aMC@NLO
-         |
-         v
-Process Definition
-         |
-         v
-Bash Execution Script
-         |
-         v
-HTCondor Job Submission
-         |
-         v
-Computing Nodes
-         |
-         v
-Event Generation + Pythia8
-         |
-         v
-Output Storage and Job Logs
-```
+![HTCondor Batch Production Workflow](HTCondor_Workflow.png)
 
-Independent jobs can be assigned unique identifiers and random seeds to support separate event-generation runs.
+Independent simulation jobs are submitted to computing nodes through HTCondor. Each job executes a Bash script for MadGraph5_aMC@NLO event generation and Pythia8 showering.
+
+Unique job identifiers and random seeds support independent event-generation runs.
+
 
 ## 2. Repository Files
 
