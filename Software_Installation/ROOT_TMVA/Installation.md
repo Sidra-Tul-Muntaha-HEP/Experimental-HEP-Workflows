@@ -159,24 +159,7 @@ python3 -c "import ROOT; print(ROOT.gROOT.GetVersion())"
 
 The Python environment must be compatible with the selected ROOT installation.
 
-## 7. Tested Environment
-
-The following configuration has been verified on a local Linux system.
-
-| Component | Version / Status |
-|---|---|
-| Operating System | Ubuntu 24.04.4 LTS |
-| ROOT | 6.38.00 |
-| ROOT executable | Available |
-| ROOT configuration utility | Working |
-| TMVA library | Successfully loaded |
-| TMVA library status | `0` |
-
-These values describe one verified environment rather than mandatory installation requirements.
-
-PyROOT functionality has not yet been separately verified.
-
-## 8. Common Installation Issues
+## 7. Common Installation Issues
 
 ### ROOT Command Not Found
 
@@ -207,7 +190,7 @@ which root
 root-config --prefix
 ```
 
-## 9. References
+## 8. References
 
 - [ROOT Official Website](https://root.cern/)
 - [ROOT Installation Guide](https://root.cern/install/)
