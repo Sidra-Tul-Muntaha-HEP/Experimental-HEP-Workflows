@@ -33,7 +33,6 @@ The ROOT/C++ analysis involves:
 The following figure presents the event reconstruction and analysis procedure, including the main computational stages and ROOT/C++ implementation details.
 
 ![tHZbj Event Reconstruction and Analysis Workflow](tHZbj_Analysis_Workflow.png)
-
 ## 4. Analysis Output
 
 The final ROOT TTrees contain reconstructed physics observables and event-level information suitable for multivariate classification studies.
