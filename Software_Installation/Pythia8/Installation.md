@@ -131,23 +131,7 @@ The output `true` for `--with-lhapdf6` indicates that LHAPDF6 support is enabled
 
 These checks confirm configuration details but do not replace a complete simulation test.
 
-## 6. Tested Environment
-
-The following configuration has been verified on a local Linux installation.
-
-| Component | Version / Configuration |
-|---|---|
-| Operating System | Ubuntu 24.04.4 LTS |
-| MadGraph5_aMC@NLO | 3.6.6 |
-| Pythia8 | 8.316 |
-| LHAPDF6 | 6.5.5 |
-| HepMC2 | Enabled during configuration |
-| zlib/gzip | Enabled during configuration |
-| C++ standard | C++11 |
-
-These details describe one local configuration rather than universal version requirements.
-
-## 7. Common Configuration Issues
+## 6. Common Configuration Issues
 
 ### Pythia8 Configuration Executable Not Found
 
