@@ -8,7 +8,7 @@ The aim is to document commonly used tools and methods for particle physics simu
 
 ### 1. Software Installation & Setup
 Installation and configuration of scientific software, including:
-- MadGraph5_aMC@NLO, Pythia8, and Delphes
+- MadGraph5_aMC@NLO,LHAPDF6, Pythia8, and Delphes
 - ROOT and TMVA
 - CMSSW and CMS Combine
 - Supporting libraries and computing environments
