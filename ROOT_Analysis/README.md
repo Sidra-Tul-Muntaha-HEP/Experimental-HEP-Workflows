@@ -1,73 +1,83 @@
-# ROOT-Based Event Reconstruction and Physics Analysis
+# ROOT-Based Data Analysis in Experimental High Energy Physics
 
 ## Overview
 
-ROOT is a scientific data analysis framework widely used in experimental high energy physics for processing collision data, reconstructing physics observables, and performing statistical and computational analyses.
+ROOT is a scientific data analysis framework widely used in experimental high energy physics for processing collision data, reconstructing physics observables, performing statistical analysis, and visualizing results.
 
-This section documents ROOT-based event analysis techniques applied to simulated high energy particle collisions.
-
-The analysis focuses on detector-level event processing, physics-object reconstruction, kinematic variable calculation, and preparation of structured datasets for multivariate analysis.
+This section documents ROOT-based computational workflows involving event reconstruction, kinematic calculations, histogramming, and preparation of structured datasets for machine-learning applications.
 
 ## 1. Analysis Framework
 
-The computational workflow integrates several software packages:
+A typical Monte Carlo simulation and analysis chain follows:
 
 **MadGraph5_aMC@NLO → Pythia8 → Delphes → ROOT → TMVA**
 
-ROOT processes the detector-level information produced by Delphes and provides tools for event reconstruction, histogramming, data organization, and visualization.
+ROOT provides tools for processing detector-level events, reconstructing physics objects, calculating observables, and organizing analysis outputs.
 
-## 2. tHZbj Event Reconstruction and Analysis
+## 2. Event Processing and Reconstruction
 
-The tHZbj analysis investigates the reconstruction of physics objects and kinematic observables associated with single-top production in association with a Higgs boson and a Z boson.
+ROOT-based event analysis involves:
 
-The analysis workflow includes:
+- Reading simulated or experimental data from ROOT files.
+- Accessing event branches and processing events through event loops.
+- Reconstructing electrons, muons, jets, and b-tagged jets.
+- Calculating transverse momentum, pseudorapidity, and azimuthal angles.
+- Reconstructing invariant masses and angular separations.
+- Computing global event observables and missing transverse momentum.
+- Applying analysis selections and reconstruction requirements.
 
-- Reading simulated detector-level events from Delphes ROOT files.
-- Accessing reconstructed leptons, jets, and missing transverse momentum.
-- Identifying and classifying jets, including b-tagged jets.
-- Calculating event-level kinematic observables.
-- Reconstructing Higgs, W, Z, and top-quark candidates.
-- Studying invariant masses and angular observables.
-- Organizing reconstructed variables into ROOT TTrees.
-- Preparing structured datasets for TMVA-based multivariate analysis.
+Reconstruction procedures depend on the detector configuration and physics objectives.
 
-## 3. Event Reconstruction Workflow
+## 3. Histogramming and Visualization
 
-The analysis follows a structured sequence, beginning with detector-level event information and ending with reconstructed physics variables stored in ROOT TTrees.
+ROOT supports the visualization and interpretation of physics observables through:
 
-### tHZbj Analysis Workflow
+- One-dimensional and multidimensional histograms.
+- Kinematic and particle-multiplicity distributions.
+- Comparisons between simulated processes.
+- Reconstruction efficiency studies.
+- Graphical presentation of analysis results.
 
-![tHZbj Event Reconstruction and Analysis Workflow](tHZbj_Event_Analysis/tHZbj_Analysis_Workflow.png)
+## 4. ROOT Trees and Data Organization
 
-The workflow illustrates the main stages of event processing, physics-object reconstruction, kinematic variable calculation, and output preparation for machine-learning applications.
+ROOT TTrees provide efficient storage and access to event-level information.
 
-## 4. Analysis Output
+Reconstructed observables can be organized into structured datasets for further analysis, including event selection, multivariate classification, and statistical inference.
 
-The ROOT-based processing produces structured event information containing reconstructed physics observables.
+## 5. Integration with Machine Learning
 
-The resulting ROOT TTrees provide input variables for subsequent multivariate classification using TMVA.
+ROOT-based analysis produces reconstructed physics variables that can be used in TMVA (Toolkit for Multivariate Data Analysis).
 
-This separation between event reconstruction and machine-learning analysis supports systematic organization of the computational workflow.
+TMVA supports classification and regression methods, including Boosted Decision Trees (BDTs), along with training, validation, and performance evaluation.
 
-## 5. Software and Tools
+## 6. Software and Tools
 
-| Software | Purpose |
+| Software / Framework | Application |
 |---|---|
-| ROOT | Event processing, histogramming, and data analysis |
+| ROOT | Data processing, histogramming, and visualization |
+| C++ | Event reconstruction and physics calculations |
 | Delphes | Fast detector simulation |
-| C++ | Event reconstruction and analysis implementation |
-| ROOT TTree | Structured storage of physics observables |
-| TMVA | Multivariate classification and machine learning |
+| ROOT TTree | Structured event-data storage |
+| ROOT TLorentzVector | Four-momentum and kinematic calculations |
+| TMVA | Multivariate analysis and machine learning |
 
-## 6. Related Documentation
+## 7. Reproducibility
+
+Reliable analysis requires documented input datasets, reconstruction methods, variable definitions, event selection criteria, and software configurations.
+
+Modular ROOT workflows support reproducibility, validation, and extension to different collider physics processes.
+
+## 8. Related Documentation
 
 - [ROOT & TMVA Installation](../Software_Installation/ROOT_TMVA/Installation.md)
 - [Delphes Installation](../Software_Installation/Delphes/Installation.md)
 - [Monte Carlo Simulation](../Monte_Carlo_Simulation/README.md)
 
-## 7. References
+## 9. References
 
-- [ROOT Data Analysis Framework](https://root.cern/)
-- [ROOT TTree Documentation](https://root.cern/doc/master/classTTree.html)
-- [ROOT TMVA Documentation](https://root.cern/manual/tmva/)
-- [Delphes Official Documentation](https://delphes.github.io/)
+- [ROOT — Official Website](https://root.cern/)
+- [ROOT — User Guide](https://root.cern/manual/)
+- [ROOT — Histograms](https://root.cern/manual/histograms/)
+- [ROOT — Trees](https://root.cern/manual/trees/)
+- [ROOT — TMVA](https://root.cern/manual/tmva/)
+- [Delphes — Official Documentation](https://delphes.github.io/)
