@@ -65,12 +65,12 @@ A consistent flavour scheme requires compatible model parameters, proton definit
 
 ## 2. Basic Event Generation
 
-A simple introductory process is Drell–Yan dimuon production:
+A simple introductory Drell–Yan process is describes lepton-pair production
+in proton–proton collisions through electroweak interactions.
 
-\[
-pp \rightarrow \mu^+\mu^-
-\]
-
+$$
+pp \rightarrow \mu^{+}\mu^{-}
+$$
 Start MadGraph:
 
 ```bash
@@ -324,10 +324,11 @@ Complete configuration records improve reproducibility and facilitate comparison
 
 ## 10. Related Documentation
 
-- MadGraph5_aMC@NLO installation
-- LHAPDF6 installation and PDF management
-- Pythia8 installation and configuration
-- Delphes detector simulation
-- ROOT event analysis
+- [MadGraph5_aMC@NLO — Installation and Setup](../Software_Installation/MadGraph5/Installation.md)
+- [LHAPDF6 — Installation and PDF Management](../Software_Installation/LHAPDF6/Installation.md)
+- [Pythia8 — Installation and Configuration](../Software_Installation/Pythia8/Installation.md)
+- [Delphes — Installation and Detector Simulation](../Software_Installation/Delphes/Installation.md)
+- [ROOT & TMVA — Installation and Configuration](../Software_Installation/ROOT_TMVA/Installation.md)
+- [ROOT — Event Analysis Documentation](https://root.cern/manual/trees/)
 
 Advanced simulation settings should be selected according to the intended physics process and validated using the corresponding generator documentation.
