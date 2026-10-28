@@ -160,32 +160,8 @@ Before execution, the following components require verification:
 
 The supplied scripts are examples of a site-dependent production workflow, not a universal batch configuration.
 
-## 10. Reproducibility
 
-Monte Carlo production records should preserve:
-
-- Generator and software versions
-- Process definitions
-- Physics model and PDF set
-- Collision energy
-- Requested and generated event counts
-- Random seeds
-- Shower configuration
-- Batch job identifiers
-- Reported cross sections
-- Submission and execution logs
-
-These records support debugging, reproducibility, and independent validation.
-
-## 11. Related Documentation
-
-- [Monte Carlo Simulation Overview](../README.md)
-- [Sample Generation Guide](../Sample_Generation.md)
-- [MadGraph5 Installation](../../Software_Installation/MadGraph5/Installation.md)
-- [LHAPDF6 Installation](../../Software_Installation/LHAPDF6/Installation.md)
-- [Pythia8 Installation](../../Software_Installation/Pythia8/Installation.md)
-
-## 12. References
+## 10. References
 
 - [HTCondor User Manual](https://htcondor.readthedocs.io/en/main/users-manual/)
 - [HTCondor File Transfer Documentation](https://htcondor.readthedocs.io/en/main/users-manual/file-transfer.html)
