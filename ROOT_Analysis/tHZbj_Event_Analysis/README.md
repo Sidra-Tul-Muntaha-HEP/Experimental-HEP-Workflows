@@ -27,7 +27,7 @@ The ROOT/C++ analysis involves:
 6. Calculating invariant masses, angular separations, and global event variables.
 7. Organizing reconstructed observables into ROOT TTrees.
 8. Preparing the resulting datasets for TMVA-based machine learning.
-
+ 
 ## 3. Analysis Workflow Documentation
 
 The following figure presents the event reconstruction and analysis procedure, including the main computational stages and ROOT/C++ implementation details.
