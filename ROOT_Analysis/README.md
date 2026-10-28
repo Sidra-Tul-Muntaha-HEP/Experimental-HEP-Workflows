@@ -67,17 +67,3 @@ Reliable analysis requires documented input datasets, reconstruction methods, va
 
 Modular ROOT workflows support reproducibility, validation, and extension to different collider physics processes.
 
-## 8. Related Documentation
-
-- [ROOT & TMVA Installation](../Software_Installation/ROOT_TMVA/Installation.md)
-- [Delphes Installation](../Software_Installation/Delphes/Installation.md)
-- [Monte Carlo Simulation](../Monte_Carlo_Simulation/README.md)
-
-## 9. References
-
-- [ROOT — Official Website](https://root.cern/)
-- [ROOT — User Guide](https://root.cern/manual/)
-- [ROOT — Histograms](https://root.cern/manual/histograms/)
-- [ROOT — Trees](https://root.cern/manual/trees/)
-- [ROOT — TMVA](https://root.cern/manual/tmva/)
-- [Delphes — Official Documentation](https://delphes.github.io/)
