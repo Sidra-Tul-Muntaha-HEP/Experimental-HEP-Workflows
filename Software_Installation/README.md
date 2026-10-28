@@ -6,10 +6,11 @@ and setup instructions for software used in experimental high energy physics.
 ## Software
 
 1. MadGraph5_aMC@NLO
-2. Pythia8
-3. Delphes
-4. ROOT and TMVA
-5. CMSSW and CMS Combine
+2. LHAPDF6
+3. Pythia8
+4. Delphes
+5. ROOT and TMVA
+6. CMSSW and CMS Combine
 
 Each guide will include software requirements, installation commands,
 environment configuration, and basic verification steps.
