@@ -28,10 +28,6 @@ Example datacards, binned likelihood analysis, uncertainty modelling, and statis
 ### 6. Detector Studies
 General documentation related to CMS Phase-II 2S module testing, electrical characterization, and performance studies.
 
-## Documentation and Examples
-
-Software guides, example scripts, and supporting documentation will be added and organized by topic.
-
 ## Author
 
 **Sidra-Tul-Muntaha**  
