@@ -1,8 +1,6 @@
-# MadGraph5_aMC@NLO — Installation and Setup (Linux)
+# MadGraph5_aMC@NLO — Installation and Setup
 
 This guide documents a **general Linux installation workflow** for MadGraph5_aMC@NLO (MG5_aMC). It also shows how to check an existing installation and connect commonly used simulation tools. Commands and dependencies may differ between MG5_aMC releases and Linux distributions.
-
-> **Scope:** General educational workflow; not a configuration for any specific physics analysis.
 
 ## 1. Requirements
 
@@ -43,9 +41,6 @@ tar -xzf "$ARCHIVE"
 ```bash
 cd /path/to/extracted/MG5_aMC_directory
 ```
-
-The `/path/to/...` string above is a placeholder, not a literal path to run.
-
 ## 3. Start MG5_aMC
 
 From the MG5_aMC installation directory:
@@ -96,9 +91,6 @@ From the MG5_aMC installation directory, examples of checks are:
 # Delphes: check whether the compiled library exists
 ls -lh Delphes/libDelphes.so
 ```
-
-These paths are **examples**, not universal installation paths. A configuration script reporting a version or a library being present does not by itself prove a complete event-generation, showering, or detector-simulation workflow works.
-
 If packages are installed elsewhere, MG5_aMC may need the corresponding tool paths configured. Check `input/mg5_configuration.txt` and MG5_aMC's `help set` output before changing settings.
 
 ## 5. Basic example: generate a standard-model process
@@ -111,11 +103,11 @@ output DY_example
 launch
 ```
 
-Follow the interactive prompts. This is a **general tutorial process** and not a thesis analysis card. A successful run provides a stronger end-to-end test than a startup message alone.
+Follow the interactive prompts. This is a **general tutorial process**. A successful run provides a stronger end-to-end test than a startup message alone.
 
 ## 6. Common startup messages
 
-- **FastJet / `fastjet-config` missing:** MG5_aMC may use its `fjcore` fallback for some tasks. Install/configure FastJet only if your workflow requires it.
+- **FastJet / `fastjet-config` missing:** MG5_aMC may use its `fjcore` fallback for some tasks. Install/configure FastJet only if workflow requires it.
 - **eMELA configuration missing:** Not generally necessary for a basic proton–proton example.
 - **Python-version warning:** Check the release notes for compatibility with features you plan to use. Successful startup does not validate every feature.
 - **Update prompt:** Answer `n` to retain the installed version, or update separately after checking compatibility.
