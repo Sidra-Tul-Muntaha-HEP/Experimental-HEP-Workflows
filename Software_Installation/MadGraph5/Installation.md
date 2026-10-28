@@ -20,7 +20,7 @@ g++ --version
 gfortran --version
 ```
 
-Additional libraries may be required for particular NLO processes or optional packages. Consult the documentation for the version you choose.
+Additional libraries may be required for particular NLO processes or optional packages.
 
 ## 2. Download and extract MG5_aMC
 
@@ -111,22 +111,6 @@ Follow the interactive prompts. This is a **general tutorial process**. A succes
 - **eMELA configuration missing:** Not generally necessary for a basic proton–proton example.
 - **Python-version warning:** Check the release notes for compatibility with features you plan to use. Successful startup does not validate every feature.
 - **Update prompt:** Answer `n` to retain the installed version, or update separately after checking compatibility.
-
-## 7. Example of a checked local environment
-
-The following **example environment was checked with terminal commands**, but the listed versions are **not mandatory** for everyone:
-
-| Component | Observed result |
-| --- | --- |
-| Operating system | Ubuntu 24.04.4 LTS |
-| Python | 3.12.3 |
-| GCC / G++ / GFortran | 13.3.0 |
-| MG5_aMC | 3.6.6; interactive interface launched |
-| Pythia8 | `pythia8-config --version` → 8.316 |
-| LHAPDF6 | `lhapdf-config --version` → 6.5.5 |
-| Delphes | `libDelphes.so` present; full runtime not tested here |
-
-The **original installation history was not recorded**. This is a verified *environment check*, not proof that every suggested installation command above was run on that machine.
 
 For convenient checks, see [`verify_mg5_setup.sh`](verify_mg5_setup.sh). It reports local tools and file presence; it does not generate physics events or modify the installation.
 
