@@ -17,13 +17,13 @@ Installation and configuration of scientific software, including:
 General workflows for event generation, parton showering, and detector simulation.
 
 ### 3. ROOT Data Analysis
-Example scripts for event processing, histogramming, and visualization of physics distributions.
+ROOT/C++ analysis workflows for event processing, histogramming, and visualization of physics distributions.
 
 ### 4. Machine Learning
-Examples of binary and multiclass BDT classification, training and testing, and performance evaluation using TMVA.
+TMVA-based workflows for binary and multiclass BDT classification, model training, testing, and performance evaluation.
 
 ### 5. Statistical Analysis
-Example datacards, binned likelihood analysis, uncertainty modelling, and statistical inference using CMS Combine.
+CMS Combine workflows covering datacard preparation, binned likelihood analysis, uncertainty modelling, and statistical inference.
 
 ### 6. Detector Studies
 General documentation related to CMS Phase-II 2S module testing, electrical characterization, and performance studies.
