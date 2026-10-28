@@ -25,13 +25,13 @@ Additional libraries may be required for particular NLO processes or optional pa
 ## 2. Download and extract MG5_aMC
 
 1. Download a release archive (`.tar.gz`) from the [official MG5_aMC releases page](https://launchpad.net/mg5amcnlo) or the [MadGraph download page](https://madgraph.mi.infn.it/cgi-bin/Register/download.cgi).
-2. Put the archive in a convenient directory and extract it. **Replace the example archive filename** with the actual file you downloaded:
+2. Put the archive in a convenient directory and extract it. **Replace the example archive filename** with the actual file downloaded:
 
 ```bash
 mkdir -p "$HOME/hep-software"
 cd "$HOME/hep-software"
 
-# Change the path below to the archive that you downloaded.
+# Change the path below to the archive that downloaded.
 ARCHIVE="$HOME/Downloads/MG5_aMC_vX.Y.Z.tar.gz"
 tar -xzf "$ARCHIVE"
 ```
@@ -57,7 +57,7 @@ tutorial
 quit
 ```
 
-The `tutorial` command is interactive; follow the on-screen prompts. If MG5_aMC offers to update, you can answer `n` to keep the release you intended to document.
+The `tutorial` command is interactive; follow the on-screen prompts. If MG5_aMC offers to update, can answer `n` to keep the release intended to document.
 
 ## 4. Optional physics packages
 
@@ -68,9 +68,6 @@ install lhapdf6
 install pythia8
 install Delphes
 ```
-
-Run **only the relevant commands**, one at a time, if the software is not already available. Installation may download and compile dependencies, may require a working internet connection, and may fail if a prerequisite is missing. In particular, Delphes integration may require a compatible ROOT setup. Some workflows need additional interfaces or packages; consult the MG5_aMC help for your installed version.
-
 To see installation options:
 
 ```text
@@ -109,7 +106,7 @@ Follow the interactive prompts. This is a **general tutorial process**. A succes
 
 - **FastJet / `fastjet-config` missing:** MG5_aMC may use its `fjcore` fallback for some tasks. Install/configure FastJet only if workflow requires it.
 - **eMELA configuration missing:** Not generally necessary for a basic proton–proton example.
-- **Python-version warning:** Check the release notes for compatibility with features you plan to use. Successful startup does not validate every feature.
+- **Python-version warning:** Check the release notes for compatibility with features plan to use. Successful startup does not validate every feature.
 - **Update prompt:** Answer `n` to retain the installed version, or update separately after checking compatibility.
 
 For convenient checks, see [`verify_mg5_setup.sh`](verify_mg5_setup.sh). It reports local tools and file presence; it does not generate physics events or modify the installation.
