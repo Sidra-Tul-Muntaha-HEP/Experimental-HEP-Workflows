@@ -23,8 +23,8 @@ Unique job identifiers and random seeds support independent event-generation run
 
 | File | Description |
 |---|---|
-| `pp_tt_condor_script.sh` | Bash script for configuring and executing MadGraph event-generation jobs |
-| `condor_submit.sub` | HTCondor submission file defining job resources, arguments, logs, and queue size |
+| `pp_tt_NLO_FxFx_condor.sh` | Bash script for configuring and executing MadGraph event-generation jobs |
+| `pp_tt_NLO_FxFx_condor.sub` | HTCondor submission file defining job resources, arguments, logs, and queue size |
 
 The Bash script handles generator configuration and event generation.
 
