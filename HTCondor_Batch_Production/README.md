@@ -88,13 +88,13 @@ mkdir -p logs
 Set execution permission:
 
 ```bash
-chmod +x pp_tt_condor_script.sh
+chmod +x pp_tt_NLO_FxFx_condor.sh
 ```
 
 Submit the batch jobs:
 
 ```bash
-condor_submit condor_submit.sub
+pp_tt_NLO_FxFx_condor.sub
 ```
 
 The job submission command reads the resource configuration and places jobs into the HTCondor queue.
