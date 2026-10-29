@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 #===============================
 # MG5 job running in /tmp then copying to EOS
 #===============================
@@ -72,7 +72,7 @@ shower=PYTHIA8
 set ebeam 6800
 set pdlabel = lhapdf
 set lhaid = 303600
-set nevents 1000
+set nevents 10000
 set ickkw 3
 set nsplit_jobs = 1
 set njmax 2
