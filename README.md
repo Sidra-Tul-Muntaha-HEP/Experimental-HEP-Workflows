@@ -23,7 +23,7 @@ HTCondor-based batch processing workflows for automated Monte Carlo event genera
 ### [4. ROOT Data Analysis](ROOT_Analysis/)
 ROOT/C++ analysis workflows for event processing, histogramming, and visualization of physics distributions.
 
-### 5. Machine Learning
+### [5. Machine Learning](https://github.com/Sidra-Tul-Muntaha-HEP/Experimental-HEP-Workflows/tree/main/Machine_Learning)
 TMVA-based workflows for binary and multiclass BDT classification, model training, testing, and performance evaluation.
 
 ### 6. Statistical Analysis
