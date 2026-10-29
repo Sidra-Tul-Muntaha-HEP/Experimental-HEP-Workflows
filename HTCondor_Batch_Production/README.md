@@ -18,7 +18,6 @@ Independent simulation jobs are submitted to computing nodes through HTCondor. E
 
 Unique job identifiers and random seeds support independent event-generation runs.
 
-
 ## 2. Repository Files
 
 | File | Description |
@@ -59,7 +58,7 @@ The supplied HTCondor submission file specifies:
 | Standard error | `logs/error_$(Process).err` |
 | Event log | `logs/condor.log` |
 
-Each job requests 100,000 generated events at a proton–proton centre-of-mass energy of 13.6 TeV.
+Each job requests **1,000 generated events** at a proton–proton centre-of-mass energy of 13.6 TeV.
 
 These values describe the supplied configuration rather than universal resource requirements.
 
@@ -94,7 +93,7 @@ chmod +x pp_tt_NLO_FxFx_condor.sh
 Submit the batch jobs:
 
 ```bash
-pp_tt_NLO_FxFx_condor.sub
+condor_submit pp_tt_NLO_FxFx_condor.sub
 ```
 
 The job submission command reads the resource configuration and places jobs into the HTCondor queue.
@@ -159,7 +158,6 @@ Before execution, the following components require verification:
 - Cluster-supported CPU, memory, and runtime requests
 
 The supplied scripts are examples of a site-dependent production workflow, not a universal batch configuration.
-
 
 ## 10. References
 
